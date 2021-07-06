@@ -21,6 +21,8 @@ The aim of this project is to discover OOV(out of vocabulary) from Sina Weibo an
     $python splitsystem.py
     Training model and caculate the similarity of each oov
     $python modeltraining.py
+    Additional experiments are inputting an OOV for direct semantic understanding
+    $python modeltraining.py
 ***
 ### Dependencies
     > python 3.9
@@ -32,10 +34,12 @@ The aim of this project is to discover OOV(out of vocabulary) from Sina Weibo an
     > matplotlib
 ***
 ### Data source
-Corpus www.weibo.com/breakingnews
-Dictionary https://hanyu.baidu.com/
+<a href="https://www.weibo.com/breakingnews"><img src="https://img.shields.io/badge/Corpus Source-Sina Break News-brightgreen"></a>
+<a href="https://hanyu.baidu.com/"><img src="https://img.shields.io/badge/Dictionary Source-Baidu Hanyu Dictionary-brightgreen"></a>
 ***
 ### Some Result
 The example of ’凤凰网‘(Media organization)on the left and ‘新冠’(Covid-19) on the right,Because the word ‘凤凰网’ often appears in the back of some news, it is difficult to predict the meaning of the word because there is not enough information in the context and there is a lot of noise,On the contrary, the word '新冠' is rich in contextual information, so the predicted value is also relatively accurate.
 ![image](https://github.com/gabrielpondc/oovunderstand/blob/main/result/2.png)
+This example shows the understand of '耗子尾汁' by both CBOW and Skip-gram models. Both models accurately understand the semantic words, but the similarity between the two words understood by the CBOW model is higher
+![image](https://github.com/gabrielpondc/oovunderstand/blob/main/result/3.png)
 
