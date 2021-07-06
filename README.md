@@ -45,7 +45,7 @@ This example shows the understand of '耗子尾汁' by both CBOW and Skip-gram m
 | Model | A | B | C |Accuracy|
 | --- | --- | --- |--- |--- |
 |CBOW  | 21 | 13 | 1|97.10%|
-| Skip-gram | 17 |14  | 4|88.57%|
+| Skip-gram | 17 |14  | 4|88.57%|  
 ![1](http://latex.codecogs.com/svg.latex?Accuracy%3D%5Cfrac%7B(A%2BB)%7D%7Bn%7D%5Ctimes100%5C%25)
 ***
 ### About the Author
