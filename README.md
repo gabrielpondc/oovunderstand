@@ -46,3 +46,9 @@ This example shows the understand of '耗子尾汁' by both CBOW and Skip-gram m
 ### About the Author
 JiaKai Gu  
 E-mail: gabrielpondc@cau.ac.kr  
+Jason J. Jung   
+Department of Computer Engineering, Chung-Ang University 84, Heukseok-ro, Dongjak-gu, Seoul, Republic of Korea 06974  
+Tel.: +82-2-820-5136  
+Fax: +82-2-820-5301  
+E-mail: j3ung@cau.ac.kr  
+	Jung
