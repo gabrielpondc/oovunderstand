@@ -43,6 +43,7 @@ The aim of this project is to discover OOV(out of vocabulary) from Sina Weibo an
 |A|天才病(Genius Disease)|阿兹伯格综合症(Asperger's Syndrome)
 |B|新冠 (COVID-19)|感染(Infection), 病毒(Virus), 肺炎(pneumonia)
 |C|凤凰网(Media Organization)|应该 (Should be),讨论 (discuss),看法 (view)
+---
 The example of ’凤凰网‘(Media organization)on the left and ‘新冠’(Covid-19) on the right,Because the word ‘凤凰网’ often appears in the back of some news, it is difficult to predict the meaning of the word because there is not enough information in the context and there is a lot of noise,On the contrary, the word '新冠' is rich in contextual information, so the predicted value is also relatively accurate.
 ![image](https://github.com/gabrielpondc/oovunderstand/blob/main/result/2.png)
 This example shows the understand of '耗子尾汁' by both CBOW and Skip-gram models. Both models accurately understand the semantic words, but the similarity between the two words understood by the CBOW model is higher
