@@ -39,12 +39,12 @@ Higher the correlation between X and Y, the higher the possibility of X and Y fo
 Left and right entropy  
 ![image](https://latex.codecogs.com/svg.latex?E_L%5Cleft(W%5Cright)%3D-%5Csum_%7B%5Cforall%20a%5Cin%20A%7D%7BP%5Cleft(aW%5Cmiddle%7C%20W%5Cright)%5Cast%7Blog%7D_2P%5Cleft(aW%5Cmiddle%7C%20W%5Cright)%7D)  
 ![image](https://latex.codecogs.com/svg.latex?E_R%5Cleft(W%5Cright)%3D-%5Csum_%7B%5Cforall%20b%5Cin%20B%7D%7BP%5Cleft(Wb%5Cmiddle%7C%20W%5Cright)%5Cast%7Blog%7D_2P%5Cleft(Wb%5Cmiddle%7C%20W%5Cright)%7D)   
-W : candidate words after N-Gram segmentation. 
-A: a collection of all words appearing on the left of a candidate. 
-a: a word appearing on the left. 
-B: a collection of all words appearing on the right of a candidate. 
-b: a word appearing on the right. 
-The more words appear around the candidate word W, the more likely it is that W is a word.  
+W : candidate words after N-Gram segmentation.   
+A: a collection of all words appearing on the left of a candidate.   
+a: a word appearing on the left.   
+B: a collection of all words appearing on the right of a candidate.   
+b: a word appearing on the right.   
+The more words appear around the candidate word W, the more likely it is that W is a word.    
 ***
 ### Some Result
 |Class| OOV | Similar Words of OOV|
