@@ -1,4 +1,5 @@
 # Chinese OOV recognition and understanding by contextual Word2Vec model
+ <a href="https://github.com/topics/python"><img src="https://img.shields.io/badge/-Python-black?style=flat&logo=python&logoColor=white"></a>
 ### Content
 - [Chinese OOV recognition and understanding by contextual Word2Vec model](#Chinese-OOV-recognition-and-understanding-by-contextual-Word2Vec-model)
     + [Project Introduction](#Project-Introduction)
