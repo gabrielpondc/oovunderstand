@@ -76,7 +76,7 @@ The result of OOV ’ 耗子尾汁’
 ***
 ***
 ### About the Author
-JiaKai Gu  
+JiaKai Gu   <a href="https://github.com/gabrielpondc"><img src="http://img.shields.io/badge/-Github-FFFFFF?style=flat&logo=github&logoColor=000000"></a>    
 E-mail: gabrielpondc@cau.ac.kr  
 Jason J. Jung   
 Department of Computer Engineering, Chung-Ang University 84, Heukseok-ro, Dongjak-gu, Seoul, Republic of Korea 06974  
