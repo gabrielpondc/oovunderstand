@@ -31,14 +31,10 @@ The aim of this project is to discover OOV(out of vocabulary) from Sina Weibo an
     Additional experiments are inputting an OOV for direct semantic understanding
     $python modeltraining.py
 ***
-### Dependencies
-    > python 3.9
-    > jieba
-    > requests
-    > lxml
-    > gensim
-    > sklearn
-    > matplotlib
+### Word Extract
+Mutual information(MI) 
+![2](http://latex.codecogs.com/svg.latex?MI(x%3By)%3Dlog%5Cfrac%7Bp(x%2Cy)%7D%7Bp(x)p(y)%7D%3Dlog%5Cfrac%7Bp(x%7Cy)%7D%7Bp(x)%7D%3Dlog%5Cfrac%7Bp(y%7Cx)%7D%7Bp(y)%7D%5C))
+
 ***
 ### Data source
 <a href="https://www.weibo.com/breakingnews"><img src="https://img.shields.io/badge/Corpus Source-Sina Break News-brightgreen"></a>
