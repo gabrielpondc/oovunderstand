@@ -2,6 +2,7 @@
 ### Content
 ### Project Introduction
 The aim of this project is to discover OOV(out of vocabulary) from Sina Weibo and to understand OOV by using the Word2Vec model. The first step was generated word lists through Mutual information and Left and Right Entropy Measures from news corpus of Sina Weibo was crawled, and OOV was extracted from the word lists through online dictionaries. The second step was extracted the relevant corpus containing OOV from Weibo. The third step, a third-party tool was used to divide the corpus into words and to obtain the distributed representation of words using Word2Vec's CBOW(continues bag of word) and Skip-Gram models. The fourth step was distributed representation information is used to compute words that are similar to the OOV in order to achieve semantic understanding of the OOV.The final result model has a high rate of correct word comprehension and is able to understand most of the OOV. 
+![image](https://github.com/gabrielpondc/oovunderstand/blob/main/result/1.png)
 ***
 ### Run Way
     Mining the data for the corpus
@@ -33,3 +34,8 @@ The aim of this project is to discover OOV(out of vocabulary) from Sina Weibo an
 ### Data source
 Corpus www.weibo.com/breakingnews
 Dictionary https://hanyu.baidu.com/
+***
+### Some Result
+The example of ’凤凰网‘(Media organization)on the left and ‘新冠’(Covid-19) on the right,Because the word ‘凤凰网’ often appears in the back of some news, it is difficult to predict the meaning of the word because there is not enough information in the context and there is a lot of noise,On the contrary, the word '新冠' is rich in contextual information, so the predicted value is also relatively accurate.
+![image](https://github.com/gabrielpondc/oovunderstand/blob/main/result/2.png)
+
