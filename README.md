@@ -42,4 +42,4 @@ The example of ’凤凰网‘(Media organization)on the left and ‘新冠’(C
 ![image](https://github.com/gabrielpondc/oovunderstand/blob/main/result/2.png)
 This example shows the understand of '耗子尾汁' by both CBOW and Skip-gram models. Both models accurately understand the semantic words, but the similarity between the two words understood by the CBOW model is higher
 ![image](https://github.com/gabrielpondc/oovunderstand/blob/main/result/3.png)
-![1](http://latex.codecogs.com/svg.latex?\int_a^bf(x)\ dx)
+![1](http://latex.codecogs.com/svg.latex?\int_a^bf(x)\dx)
