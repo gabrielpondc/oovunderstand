@@ -3,7 +3,7 @@
 - [Chinese OOV recognition and understanding by contextual Word2Vec model](#Chinese-OOV-recognition-and-understanding-by-contextual-Word2Vec-model)
     + [Project Introduction](#Project-Introduction)
     + [Run Way](#Run-Way)
-    + [Dependencies](#Dependencies)
+    + [Word Extract](#Word-Extract)
     + [Data source](#Data-source)
     + [Some Result](#Some-Result)
     + [About the Author](#About-the-Author)
