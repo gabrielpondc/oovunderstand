@@ -32,8 +32,12 @@ The aim of this project is to discover OOV(out of vocabulary) from Sina Weibo an
     $python modeltraining.py
 ***
 ### Word Extract
-Mutual information(MI) 
-![2](http://latex.codecogs.com/svg.latex?MI(x%3By)%3Dlog%5Cfrac%7Bp(x%2Cy)%7D%7Bp(x)p(y)%7D%3Dlog%5Cfrac%7Bp(x%7Cy)%7D%7Bp(x)%7D%3Dlog%5Cfrac%7Bp(y%7Cx)%7D%7Bp(y)%7D%5C))
+Mutual information(MI)   
+![2](http://latex.codecogs.com/svg.latex?MI(x%3By)%3Dlog%5Cfrac%7Bp(x%2Cy)%7D%7Bp(x)p(y)%7D%3Dlog%5Cfrac%7Bp(x%7Cy)%7D%7Bp(x)%7D%3Dlog%5Cfrac%7Bp(y%7Cx)%7D%7Bp(y)%7D%5C))  
+Left and right entropy  
+![2](http://latex.codecogs.com/svg.latex?E_L%5Cleft(W%5Cright)%3D-%5Csum_%7B%5Cforall a%5Cin A%7D%7BP%5Cleft(aW%5Cmiddle%7C W%5Cright)%5Cast%7Blog%7D_2P%5Cleft(aW%5Cmiddle%7C W%5Cright)%7D)  
+![3](http://latex.codecogs.com/svg.latex?E_R%5Cleft(W%5Cright)%3D-%5Csum_%7B%5Cforall b%5Cin B%7D%7BP%5Cleft(Wb%5Cmiddle%7C W%5Cright)%5Cast%7Blog%7D_2P%5Cleft(Wb%5Cmiddle%7C W%5Cright)%7D)  
+
 
 ***
 ### Data source
