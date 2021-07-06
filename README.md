@@ -44,8 +44,8 @@ This example shows the understand of '耗子尾汁' by both CBOW and Skip-gram m
 ![image](https://github.com/gabrielpondc/oovunderstand/blob/main/result/3.png)
 ***
 ### Extraction method
-Mutual information(MI)
+  Mutual information(MI)
 ![4](http://latex.codecogs.com/svg.latex?MI(x;y)=log\frac{p(x,y)}{p(x)p(y)}=log\frac{p(x|y)}{p(x)}=log\frac{p(y|x)}{p(y)})
-Left and right entropy
-![4](http://latex.codecogs.com/svg.latex?E_L\left(W\right)=-\sum_{\forall a\in A}{P\left(aW\middle| W\right)\ast{log}_2P\left(aW\middle| W\right)}\label{eq:02})
-![4](http://latex.codecogs.com/svg.latex?E_R\left(W\right)=-\sum_{\forall b\in B}{P\left(Wb\middle| W\right)\ast{log}_2P\left(Wb\middle| W\right)}\label{eq:03})
+  Left and right entropy
+![5](http://latex.codecogs.com/svg.latex?E_L\left(W\right)=-\sum_{\foralla\in A}{P\left(aW\middle|W\right)\ast{log}_2P\left(aW\middle|W\right)}\label{eq:02})
+![6](http://latex.codecogs.com/svg.latex?E_R\left(W\right)=-\sum_{\forallb\in B}{P\left(Wb\middle|W\right)\ast{log}_2P\left(Wb\middle|W\right)}\label{eq:03})
