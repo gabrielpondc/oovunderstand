@@ -43,9 +43,6 @@ The example of ’凤凰网‘(Media organization)on the left and ‘新冠’(C
 This example shows the understand of '耗子尾汁' by both CBOW and Skip-gram models. Both models accurately understand the semantic words, but the similarity between the two words understood by the CBOW model is higher
 ![image](https://github.com/gabrielpondc/oovunderstand/blob/main/result/3.png)
 ***
-### Extraction method
-  Mutual information(MI)
-![4](http://latex.codecogs.com/svg.latex?MI(x;y)=log\frac{p(x,y)}{p(x)p(y)}=log\frac{p(x|y)}{p(x)}=log\frac{p(y|x)}{p(y)})
-  Left and right entropy
-![5](http://latex.codecogs.com/svg.latex?E_L\left(W\right)=-\sum_{\foralla\in A}{P\left(aW\middle|W\right)\ast{log}_2P\left(aW\middle|W\right)}\label{eq:02})
-![6](http://latex.codecogs.com/svg.latex?E_R\left(W\right)=-\sum_{\forallb\in B}{P\left(Wb\middle|W\right)\ast{log}_2P\left(Wb\middle|W\right)}\label{eq:03})
+### About the Author
+JiaKai Gu  
+E-mail: gabrielpondc@cau.ac.kr  
