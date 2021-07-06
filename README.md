@@ -1,6 +1,6 @@
 # Chinese OOV recognition and understanding by contextual Word2Vec model
 ### Content
-- [Chinese OOV recognition and understanding by contextual Word2Vec model](# Chinese-OOV-recognition-and-understanding-by-contextual-Word2Vec-model)
+- [Chinese OOV recognition and understanding by contextual Word2Vec model](#Chinese-OOV-recognition-and-understanding-by-contextual-Word2Vec-model)
     + [Project Introduction](#Project-Introduction)
     + [Run Way](#Run-Way)
     + [Dependencies](#Dependencies)
