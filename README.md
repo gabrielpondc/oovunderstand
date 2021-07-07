@@ -35,8 +35,7 @@ The aim of this project is to discover OOV(out of vocabulary) from Sina Weibo an
 ### Word Extract
 Mutual information(MI)   
 <p align="center">
-    <img src="http://latex.codecogs.com/svg.latex?MI(x%3By)%3Dlog%5Cfrac%7Bp(x%2Cy)%7D%7Bp(x)p(y)%7D%3Dlog%5Cfrac%7Bp(x%7Cy)%7D%7Bp(x)%7D%3Dlog%5Cfrac%7Bp(y%7Cx)%7D%7Bp(y)%7D%5C"
-        height="130">
+    <img src="http://latex.codecogs.com/svg.latex?MI(x%3By)%3Dlog%5Cfrac%7Bp(x%2Cy)%7D%7Bp(x)p(y)%7D%3Dlog%5Cfrac%7Bp(x%7Cy)%7D%7Bp(x)%7D%3Dlog%5Cfrac%7Bp(y%7Cx)%7D%7Bp(y)%7D%5C">
 </p>    
 Higher the correlation between X and Y, the higher the possibility of X and Y forming words,Lower the value of mutual information, lower the correlation between X and Y, the higher possibility of a boundary between X and Y.  
 Left and right entropy  
