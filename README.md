@@ -67,7 +67,7 @@ This example shows the understand of '耗子尾汁' by both CBOW and Skip-gram m
 The result of OOV ’ 耗子尾汁’
 |Word| Translation| Similarity|
 |:-:|:-:|:-:|
-|好自为之和 |Take care of yourself| 0.99997896
+|好自为之 |Take care of yourself| 0.99997896
 |吗| particle (in Chinese)| 0.99997878
 |我| i| 0.99997693|
 |马保国 |Baoguo Ma |0.99997658|
