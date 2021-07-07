@@ -49,7 +49,7 @@ The more words appear around the candidate word W, the more likely it is that W 
 ***
 ### Some Result
 |Class| OOV | Similar Words of OOV|
-|---|---|---|
+|:-:|:-:|:-:|
 |A|天才病(Genius Disease)|阿兹伯格综合症(Asperger's Syndrome)
 |B|新冠 (COVID-19)|感染(Infection), 病毒(Virus), 肺炎(pneumonia)
 |C|凤凰网(Media Organization)|应该 (Should be),讨论 (discuss),看法 (view)
@@ -60,13 +60,13 @@ This example shows the understand of '耗子尾汁' by both CBOW and Skip-gram m
 ![image](https://github.com/gabrielpondc/oovunderstand/blob/main/result/3.png)
 ![1](http://latex.codecogs.com/svg.latex?Accuracy%3D%5Cfrac%7B(A%2BB)%7D%7Bn%7D%5Ctimes100%5C%25)  
 | Model | A | B | C |Accuracy|
-| --- | --- | --- |--- |--- |
+|:-:|:-:|:-:|:-:|:-:|
 |CBOW  | 21 | 13 | 1|97.10%|
 | Skip-gram | 17 |14  | 4|88.57%|  
 ***
 The result of OOV ’ 耗子尾汁’
 |Word| Translation| Similarity|
-|---|---|---|
+|:-:|:-:|:-:|
 |好自为之和 |Take care of yourself| 0.99997896
 |吗| particle (in Chinese)| 0.99997878
 |我| i| 0.99997693|
