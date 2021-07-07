@@ -13,9 +13,9 @@ The aim of this project is to discover OOV(out of vocabulary) from Sina Weibo an
 ![image](https://github.com/gabrielpondc/oovunderstand/blob/main/result/1.png#pic_center)
 ***
 ### Run Way
-   Mining the data for the corpus
+    Mining the data for the corpus
     $python weibomining.py
-   Extract the word from corpus as word list
+    Extract the word from corpus as word list
     $python oovfinder.py
     Compare the word list with dictionary and extract the oov as list
     $python isoov.py
