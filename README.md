@@ -55,10 +55,10 @@ The more words appear around the candidate word W, the more likely it is that W 
 |C|凤凰网(Media Organization)|应该 (Should be),讨论 (discuss),看法 (view)
 ***
 The example of ’凤凰网‘(Media organization)on the left and ‘新冠’(Covid-19) on the right,Because the word ‘凤凰网’ often appears in the back of some news, it is difficult to predict the meaning of the word because there is not enough information in the context and there is a lot of noise,On the contrary, the word '新冠' is rich in contextual information, so the predicted value is also relatively accurate.
-<div align=center>![image](https://github.com/gabrielpondc/oovunderstand/blob/main/result/2.png#pic_center)
+![image](https://github.com/gabrielpondc/oovunderstand/blob/main/result/2.png)
 This example shows the understand of '耗子尾汁' by both CBOW and Skip-gram models. Both models accurately understand the semantic words, but the similarity between the two words understood by the CBOW model is higher
-![image](https://github.com/gabrielpondc/oovunderstand/blob/main/result/3.png#pic_center)
-![1](http://latex.codecogs.com/svg.latex?Accuracy%3D%5Cfrac%7B(A%2BB)%7D%7Bn%7D%5Ctimes100%5C%25#pic_center)  
+![image](https://github.com/gabrielpondc/oovunderstand/blob/main/result/3.png)
+![1](http://latex.codecogs.com/svg.latex?Accuracy%3D%5Cfrac%7B(A%2BB)%7D%7Bn%7D%5Ctimes100%5C%25)  
 | Model | A | B | C |Accuracy|
 | --- | --- | --- |--- |--- |
 |CBOW  | 21 | 13 | 1|97.10%|
