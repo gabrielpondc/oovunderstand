@@ -10,7 +10,7 @@
     + [Data source](#Data-source)
 ### Project Introduction
 The aim of this project is to discover OOV(out of vocabulary) from Sina Weibo and to understand OOV by using the Word2Vec model. The first step was generated word lists through Mutual information and Left and Right Entropy Measures from news corpus of Sina Weibo was crawled, and OOV was extracted from the word lists through online dictionaries. The second step was extracted the relevant corpus containing OOV from Weibo. The third step, a third-party tool was used to divide the corpus into words and to obtain the distributed representation of words using Word2Vec's CBOW(continues bag of word) and Skip-Gram models. The fourth step was distributed representation information is used to compute words that are similar to the OOV in order to achieve semantic understanding of the OOV.The final result model has a high rate of correct word comprehension and is able to understand most of the OOV. 
-<div align=center>![image](https://github.com/gabrielpondc/oovunderstand/blob/main/result/1.png)
+![image](https://github.com/gabrielpondc/oovunderstand/blob/main/result/1.png)
 ***
 ### Run Way
     Mining the data for the corpus
@@ -34,7 +34,7 @@ The aim of this project is to discover OOV(out of vocabulary) from Sina Weibo an
 ***
 ### Word Extract
 Mutual information(MI)   
-<div align=center>![image](http://latex.codecogs.com/svg.latex?MI(x%3By)%3Dlog%5Cfrac%7Bp(x%2Cy)%7D%7Bp(x)p(y)%7D%3Dlog%5Cfrac%7Bp(x%7Cy)%7D%7Bp(x)%7D%3Dlog%5Cfrac%7Bp(y%7Cx)%7D%7Bp(y)%7D%5C)    
+<div align=center>![image](http://latex.codecogs.com/svg.latex?MI(x%3By)%3Dlog%5Cfrac%7Bp(x%2Cy)%7D%7Bp(x)p(y)%7D%3Dlog%5Cfrac%7Bp(x%7Cy)%7D%7Bp(x)%7D%3Dlog%5Cfrac%7Bp(y%7Cx)%7D%7Bp(y)%7D%5C)    </div>
 Higher the correlation between X and Y, the higher the possibility of X and Y forming words,Lower the value of mutual information, lower the correlation between X and Y, the higher possibility of a boundary between X and Y.  
 Left and right entropy  
 <div align=center>![image](https://latex.codecogs.com/svg.latex?E_L%5Cleft(W%5Cright)%3D-%5Csum_%7B%5Cforall%20a%5Cin%20A%7D%7BP%5Cleft(aW%5Cmiddle%7C%20W%5Cright)%5Cast%7Blog%7D_2P%5Cleft(aW%5Cmiddle%7C%20W%5Cright)%7D)  
