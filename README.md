@@ -83,7 +83,9 @@ Department of Computer Engineering, Chung-Ang University 84, Heukseok-ro, Dongja
 Tel.: +82-2-820-5136  
 Fax: +82-2-820-5301  
 E-mail: j3ung@cau.ac.kr  
+
 ###Reference
+
 @article{gu2022contextual,
    author = {Gu, JiaKai and Gen, Li and Vo, Nam D. and Jung, Jason J.},
    title = {Contextual Word2Vec Model for Understanding Chinese Out of Vocabularies on Online Social Media},
