@@ -85,33 +85,21 @@ Fax: +82-2-820-5301
 E-mail: j3ung@cau.ac.kr  
 
 ### Reference
-
+```
 @article{gu2022contextual,
-
    author = {Gu, JiaKai and Li, Gen and Vo, Nam D. and Jung, Jason J.},
-   
    title = {Contextual Word2Vec Model for Understanding Chinese Out of Vocabularies on Online Social Media},
-   
    journal = {International Journal on Semantic Web and Information Systems (IJSWIS)},
-   
    volume = {18},
-   
    number = {1},
-   
    pages = {1-14},
-   
    ISSN = {1552-6283},
-   
    DOI = {10.4018/IJSWIS.309428},
-   
    url = { https://services.igi-global.com/resolvedoi/resolve.aspx?doi=10.4018/IJSWIS.309428 },
-   
    year = {2022},
-   
    type = {Journal Article}
-   
 }
-
+```
 ### Data source
 <a href="https://www.weibo.com/breakingnews"><img src="https://img.shields.io/badge/Corpus Source-Sina Break News-brightgreen"></a>
 <a href="https://hanyu.baidu.com/"><img src="https://img.shields.io/badge/Dictionary Source-Baidu Hanyu Dictionary-brightgreen"></a>
