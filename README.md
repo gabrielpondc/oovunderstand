@@ -88,7 +88,7 @@ E-mail: j3ung@cau.ac.kr
 
 @article{gu2022contextual,
 
-   author = {Gu, JiaKai and Gen, Li and Vo, Nam D. and Jung, Jason J.},
+   author = {Gu, JiaKai and Li, Gen and Vo, Nam D. and Jung, Jason J.},
    
    title = {Contextual Word2Vec Model for Understanding Chinese Out of Vocabularies on Online Social Media},
    
