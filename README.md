@@ -84,7 +84,7 @@ Tel.: +82-2-820-5136
 Fax: +82-2-820-5301  
 E-mail: j3ung@cau.ac.kr  
 
-### Reference
+### Cite this project
 ```
 @article{gu2022contextual,
    author = {Gu, JiaKai and Li, Gen and Vo, Nam D. and Jung, Jason J.},
